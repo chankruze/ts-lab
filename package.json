@@ -1,0 +1,15 @@
+{
+  "name": "ts-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chankruze/ts-lab.git",
+  "author": "chankruze <chankruze@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.63",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "start": "npx ts-node-dev --respawn index.ts"
+  }
+}
